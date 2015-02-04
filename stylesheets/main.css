@@ -2,8 +2,8 @@ header{
   position: fixed;
   width: 100%;
   text-align: center;
-  font-size: 24px;
-  line-height: 108px;
+  font-size: 8px;
+  line-height: 85px;
   height: 108px;
   background: #fff;
   color: #ccc;
@@ -55,18 +55,27 @@ ul {
 }
 
 li {
-    display: inline;
+  display: inline;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.1em;
+}
+
+.nav {
+  font-family: "Helvetica", sans-serif;
+  /*font-size: 1.1em;*/
 }
 
 a:link {
   text-decoration: none;
-  color: #9966cc;
+  color: #ccc;
 }
 
 a:hover {
-  color: #330066;
+  text-decoration: none;
+  color: #999;
 }
 
 a:visited {
-  color: #330066;
+  text-decoration: none;
+  color: #ccc;
 }
