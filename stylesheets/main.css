@@ -70,3 +70,40 @@ a:hover {
 a:visited {
   color: #330066;
 }
+
+/* Sharon's CSS starts here */
+.label {
+/*  color: blue;
+  text-align: right;
+  width: 200px;
+  border: 1px solid red;
+  display:block;
+  float: left;*/
+  padding:20px;
+}
+
+.services-label {
+  width: 950px;
+  margin: auto;
+}
+
+.services-label ul li {
+  text-align: center;
+  display: inline-block;
+  border: solid 6px red;
+ /* color: red;
+  float: center;
+  text-align: center;
+  width: 200px;
+  border: 1px solid red;
+  display: block;
+  padding: 20px 100px;
+  margin: 20px; */
+}
+/*
+.services-label img {
+  float: left;
+}*/
+
+
+/* Sharon's CSS ends here */
