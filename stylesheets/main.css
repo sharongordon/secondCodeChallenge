@@ -9,24 +9,17 @@ header{
   color: #ccc;
   font-family: 'Helvetica', sans-serif;
   opacity: 0.8;
+  border: 1px solid;
 }
 
-/*
-header.sticky {
-  font-size: 24px;
-  line-height: 48px;
-  height: 48px;
-  background: #efc47D;
-  text-align: left;
-  padding-left: 20px;
-}
-*/
+/*code for full bleed bg image from paulmason.name*/
 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
+  /*background-color: #CCFFFF;*/
 }
 
 #full-screen-background-image {
@@ -40,12 +33,19 @@ html, body {
   left: 0;
 }
 
+
 #wrapper {
   position: relative;
   width: 800px;
   min-height: 400px;
   margin: 100px auto;
   color: #333;
+}
+/*END code for full bleed bg image from paulmason.name END*/
+
+h1 {
+  font-weight: lighter;
+  font-size: 100%;
 }
 
 ul {
@@ -55,20 +55,83 @@ ul {
 }
 
 li {
-    display: inline;
+  display: inline;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.1em;
+  color:  #999;
+}
+
+nav {
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
 }
 
 a:link {
   text-decoration: none;
-  color: #9966cc;
+  color: #999;
 }
 
 a:hover {
-  color: #330066;
+  text-decoration: none;
+  color: #ff9966;
 }
 
 a:visited {
-  color: #330066;
+  text-decoration: none;
+  color: #ff9966;
+}
+
+.logo {
+  float: left;
+  padding: 10px;
+}
+
+.socialIcons {
+  float: right;
+  margin: 10px;
+}
+
+.tagline{
+  opacity: 1;
+  height: 150px;
+  font-family: 'Pinyon Script', serif;
+  text-align: left;
+  font-size: 120px;
+  line-height: 100px;
+  color: #999;
+  margin: 0px 25% 0px 20px;
+  /*padding: 0px 0px 40px;*/
+  /*display: inline-block;*/
+}
+
+.homePic {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.background {
+  width:100%; height:200px;
+  background-position: center top;
+  padding-top:150px;
+  padding-bottom: 100px;
+}
+
+.three_block_section  .block { 
+ display: inline;
+ float: left;
+ font-family: 'Helvetica', sans-serif;
+ width: 31.25%;
+ margin-left: 1.04166667%;
+ margin-right: 1.04166667%;
+
+}
+
+.post_date {
+ color: #330066 ;
+ margin-top: 5%
 }
 
 /* Sharon's CSS starts here */
@@ -82,9 +145,17 @@ a:visited {
   padding:20px;
 }
 
-.services-label {
-  width: 950px;
-  margin: auto;
+.section-top {
+
+  margin-top: 200px;
+}
+
+.section-label {
+  font-family: 'Pinyon Script', serif;
+  font-size: 60px;
+  text-align: center;
+  color: #339999;
+  padding-bottom: 10px;
 }
 
 .services-label ul li {
@@ -105,10 +176,44 @@ a:visited {
   float: left;
 }*/
 
+.map {
+  width: 400px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 200px;
+}
+
+.form{
+  float: right;
+  margin-right: 250px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  width: 300px;
+}
+
+.contact-page {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact{
+  width: 100%;
+  height: 500px;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: #ccc;
+}
+
+.contact-info{
+
+}
+
 
 /* Sharon's CSS ends here */
 
-footer  {
-color: blue;
+footer {
+  width: 100%;
+  height: 400px;
 }
-
